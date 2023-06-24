@@ -2,9 +2,9 @@
 //import java.util.Scanner;
 //import java.util.Arrays;
 
-import javax.swing.text.html.FormView;
+// import javax.swing.text.html.FormView;
 
-public class lesson1 {
+// public class lesson1 {
     //public static void main(String[] args) {
         // System.out.println("Hello world" + LocalDateTime.now()); // выводим в консоль приветствие 
         //                                                             и дату с временем
