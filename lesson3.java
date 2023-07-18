@@ -1,16 +1,16 @@
-import java.util.*;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Random;
-import java.util.Set;
-import javax.swing.plaf.synth.SynthOptionPaneUI;
-import javax.swing.text.html.HTMLDocument.Iterator;
+// import java.util.*;
+// import java.util.Arrays;
+// import java.util.Collections;
+// import java.util.HashMap;
+// import java.util.HashSet;
+// import java.util.List;
+// import java.util.Random;
+// import java.util.Set;
+// import javax.swing.plaf.synth.SynthOptionPaneUI;
+// import javax.swing.text.html.HTMLDocument.Iterator;
 
-public class lesson3 {
-    public static void main(String[] args) {
+// public class lesson3 {
+//     public static void main(String[] args) {
 
     //Задание 1.
     // Создать программу которая заполнит массив случайными 
@@ -44,19 +44,19 @@ public class lesson3 {
     // Создать список типа ArraList<Object>. Поместить в него как строки, так и целые числа.
     // Пройти по списку, найти и удалить целые числа.
 
-        ArrayList<Object> myList = new ArrayList<>(Arrays.asList("mama", 2, "мыла", 8, "раму", 9, 
-        "долго", 3, "мыла"));
-        java.util.Iterator<Object> iterator = myList.iterator();
-        while (iterator.hasNext()){
-            Object el = iterator.next();
-            if (el instanceof Integer){
-                iterator.remove();
-            }
-        }
-        System.out.println(myList);
+    //     ArrayList<Object> myList = new ArrayList<>(Arrays.asList("mama", 2, "мыла", 8, "раму", 9, 
+    //     "долго", 3, "мыла"));
+    //     java.util.Iterator<Object> iterator = myList.iterator();
+    //     while (iterator.hasNext()){
+    //         Object el = iterator.next();
+    //         if (el instanceof Integer){
+    //             iterator.remove();
+    //         }
+    //     }
+    //     System.out.println(myList);
 
 
-    }
+    // }
 //static class S3Task1{
 // public ArrayList<Integer> arrayFiller(int size) {
 //     ArrayList<Integer> result = new ArrayList<>();
@@ -70,4 +70,4 @@ public class lesson3 {
 //}
 
 
-}
+//}
